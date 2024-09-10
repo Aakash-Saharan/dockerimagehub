@@ -9,7 +9,8 @@ WORKDIR /app
 COPY . /app
 
 #install any needed package specified in the reuqiremnts.txt
-RUN pip install flask, pytest
+RUN pip install flask
+RUN pip install flask
 
 #make port 5000 avaible to the world outside this container
 EXPOSE 5000
