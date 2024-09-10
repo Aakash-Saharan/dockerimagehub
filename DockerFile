@@ -12,8 +12,7 @@ COPY . /app
 RUN pip install flask, pytest
 
 #make port 5000 avaible to the world outside this container
-EXPOSE 
-
+EXPOSE 5000
 
 #run app.py when the container launches
 
